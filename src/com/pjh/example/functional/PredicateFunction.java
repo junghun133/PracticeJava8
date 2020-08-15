@@ -9,7 +9,7 @@ import java.util.function.Predicate;
  * Create by : pjh
  * email : junghun5947@gmail.com
  */
-public class PredicateExample {
+public class PredicateFunction {
     public static void main(String[] args){
         Predicate<Integer> lessThan3 =  number -> number < 3;
         Predicate<Integer> moreThan3 =  number -> number > 3;

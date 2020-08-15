@@ -7,7 +7,7 @@ import java.util.function.Supplier;
  * Create by : pjh
  * email : junghun5947@gmail.com
  */
-public class LazyEvaluation {
+public class LazyEvaluationSupplier {
     public static void main(String[] args){
         long startTime = System.currentTimeMillis();
         printIfValidIndex(0, getVeryExpensiveValue());
