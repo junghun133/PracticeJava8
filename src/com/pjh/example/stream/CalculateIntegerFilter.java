@@ -3,7 +3,10 @@ package com.pjh.example.stream;
 import java.util.Arrays;
 import java.util.List;
 
-public class Filter {
+/**
+ *  Integer type 간단한 처리 stream 전후 비교
+ */
+public class CalculateIntegerFilter {
     public static void main(final String[] args){
         final List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         System.out.println(regacyFilter(numbers));
